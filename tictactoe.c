@@ -45,7 +45,7 @@ int main() {
 
                 if (event == 0) {
 
-                    printf("\nSee you next time!");
+                    printf("\nSee you next time!\n");
                     return 0;
                 }
 
@@ -66,7 +66,7 @@ int main() {
 
                 if (response[0] == 'n' || response[0] == 'N') {
                 
-                    printf("\nSee you next time!");
+                    printf("\nSee you next time!\n");
 
                     return 0;
                 }
@@ -76,7 +76,7 @@ int main() {
         }
     }
 
-    printf("\nSee you next time!");
+    printf("\nSee you next time!\n");
 
     return 0;
 }
